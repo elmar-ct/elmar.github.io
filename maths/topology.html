@@ -22,7 +22,7 @@ The neighborhood of a point in a topological space is any open set containing th
 <ul>
 	<li> <b>Interior</b>. The interior (part) of \(A\), \(Int(A)\) or \(Int_X(A)\) is the largest among the open sets contained in \(A\):
 	
-	\( Int(A) = \cup_{\mathcal{O}\subset A} \mathcal{O}  \)
+	\( Int(A) = \cup_{\mathcal{O}\, \text{open},\mathcal{O}\subset A} \mathcal{O}  \)
 	</li> <br>
 
 	<li> <b> Closure </b>. The closure  of \(A\), denoted by \(Cl(A)\), is the smallest among the closed sets containing \(A\), i.e. the intersection of all closed sets containing \(A\) or the 
@@ -33,7 +33,12 @@ The neighborhood of a point in a topological space is any open set containing th
 	<li> <b> Boundary</b>. \( Fr A = \partial A = Cl(A) \setminus Int(A); \)  </li>
 
 	<li> The point in \( Int(A) \), \( Cl(A) \), \(Fr(A)\), and \( X \setminus Cl(A) = Int(X\setminus A)  \) are called <em>interior </em> , 
-		<em>adherent</em>, <em>boundary </em> and <em> exterior </em> point respectively. </li>
+		<em>adherent</em>, <em>boundary </em> and <em> exterior </em> point respectively; </li>
+	<li> A point is interior of \(A\) if there is an open set containing that point and entirely contained in \(A\): \(x \to Int(A)\) if there exists \(\mathcal{O}\)
+	open set such that \(\mathcal{O}\) is a part of \(A\) and \(x\to \mathcal{O}\). (Notion of parts containment is categorical.)</li>
+	<li> A point is adherent to \(A\)  if any arbitrary of its neighborhood interssects \(A\): \(x\to Cl(A)\) if for any open set \(\mathcal{O}\) containing \(x\),  there exists
+		\( x\neq y \to \mathcal{O}\cap A \)
+	</li>
 </ul>
 	
 </p> 
