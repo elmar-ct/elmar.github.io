@@ -186,12 +186,20 @@ void set \(A\) of real numbers has a least upper bound. (The real number
 \(b\) is the least upper bound of \(A\) if \(a \leqslant b\) for all \(a\) in \(A\) and if there exist
 elements of \(A\) that are arbitrarily close to\(b\).) To avoid unnecessary
 complications, we actually consider the somewhat less general assertion
-that every bounded sequence \(\{ x_k\rbrace\} \) of rational numbers has a least
+that every bounded sequence \(\{ x_k\} \) of rational numbers has a least
 upper bound b (in the set of real numbers). If this assertion were 
 constructively valid, we could compute \(b\), in the sense of computing a
 rational number approximating \(b\) to within any desired accuracy; in
 fact we could program a digital computer to compute the 
-approximations for us. For instance, the computer could be programmed to 
+approximations for us. For instance, the computer could be programmed to a sequence \(\{(b_k,m_k)\}\) of ordered pairs, where each
+\(b_k\) is a rational number and each nik is a positive integer, such that (i) \(x_j \leqslant b_k k^{-1}\) for all positive integers \(j\) and \(k\), 
+		and (ii) \(x_{m_k} \geqslant b_k - k^{-1}\) for all positive integers \(k\). Unless there exists a general method \(Μ\) that
+produces such a computer program corresponding to each bounded
+constructively given sequence \(\{x_k\} \) of rational numbers, we are not
+justified, by constructive standards, in asserting that each of the
+sequences \( \{x_k\} \) has a least upper bound. To see the scope such a method
+\(Μ\) would have, consider a constructively given sequence \(\{n_k\}\) of
+integers, each of which is either \(0\) or \(1\).
 	</p>
 
 		<p>\(\copyrigth\)Foundations of Constructive Analysis, Erret Bishop </p>
