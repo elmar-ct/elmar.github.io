@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
 <html>
-  <head> <title>maths</title>
+  <head> <title>maths</title> </head>
   <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
   <style>
     body {
@@ -26,11 +26,43 @@
 		  font-size:16px;
 		  text-align:center;
 	  }
+
+	  .navbar {
+  width: 100%;
+  background-color: none;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
 </style>
 
 <header> <q>Knowledge is matter of science: no dishonesty or conceit whatsoever is permissible. </q> (Mao Zedong) </header>
 	<hr>
 	<body>
+		<div class="navbar">
+  <a class="active" href="https://elmar-ct.github.io/index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+</div>
     <ul>
 	<li> <a href="Notations.html"> Notations </a> </li>
     	<li> <a href="topology.html"> Topology </a> </li>
