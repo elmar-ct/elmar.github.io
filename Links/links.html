@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+  <head> links for the geeks </head>
     <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style> 
   body{
     font-size:19px;
@@ -12,16 +13,45 @@
 	    ul{
 		    columns:2;
 	    }
-  </style>
 
-  </head>
+	.navbar {
+  width: 100%;
+  background-color: none;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+  </style>
 
   
 	<header>
-
-	<nav> <a href="https://elmar-ct.github.io/index.html"> Home </a> </nav> Some useful links for the geeks
+	Some useful links for the geeks
 	</header><hr> 
   <body>
+	  <div class="navbar">
+  <a class="active" href="https://elmar-ct.github.io/index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+</div>
 	<h2> General </h2>
     <ul> 
         <li><a href="https://wikileaks.org/"> Wiki Leaks</a> </li>
