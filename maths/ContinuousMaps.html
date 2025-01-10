@@ -66,20 +66,23 @@
 		<div class="navbar">
   <a class="active" href="https://elmar-ct.github.io/index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
 </div><br>
-		<h3> Continuous Maps </h3
+		<h2> Continuous Maps </h2>
 <p> Roughly, a continuous map is a mapping that is open preserving, i.e., a function \(f: X\rightarrow Y\) where \(X, Y\) are <em>top spaces</em>, such that the 
 preimage of any open in \(Y\) is open in \(X\). In other words: \(\forall O\in\mathcal{O}(Y): f^{-1}(O) \in \mathcal{O}(X). \) The identity map  \(\operatorname{id}_X\) is continuous for any top space \(X\). </p>
 	
 <p>In order for \(f\) to be continuous, it is enough that the preimages of sets comprising some prebase of \(Y\) be open.</p>
 
-<h4> Composition</h4>
+<h3> Composition</h3>
 		If \( f: X\to Y\) and \(g: Y \to Z\) are continuous then \(g\circ f: X \to Z\) also is continuous. Indeed, for all open \(O \in \mathcal{O}(Z)\),
 		\((g\circ f)^{-1}(O) = f^{-1}(g^{-1}(O)) \). But \(g^{-1}(O)\) is open in \(Y\) since \(g\) is continuous. Then \(f^{-1}(g^{-1}(O))\) is open in \(X\).
 
-<h4> Modifications continuous </h4>
+<h3> Modifications continuous </h3>
 
 <p> Let \(f: X\to Y\) be continous. For any \(A \subset X\) and \(B\subset Y\), if \(f(A) \subset B\), then the compression \(\operatorname{ab} f: A\to B\) is continuous. In particular, the restriction \(f\vert_A\) is continuous.
 Similarly, \(\operatorname{ab} f: X \to B\) is continous if and only if \(f: X\to Y\) is continuous. In particular, \(f: X\to Y\) is continuous if and only if \(f: X\to f(X)\) is continuous. </p>
+
+	<h3> Continuity and fundamental covers </h3>
+If \(\Gamma\) is a fundamental cover of \(X\), then \(f:X\to Y\) is continuous if and only if \( f\vert_A' : A' \to Y\) is continuous for any \(A' \in \Gamma.\)
 
 </body>
 </html>
