@@ -2,6 +2,10 @@
 
 <html>
   <head> <title>Cheikh Anta Diop</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
   <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -44,7 +48,27 @@ mathematical ideas. Then Man came and laid down space on papyrus in a string of 
 dropping, modifying and generalizing its axioms. The Parallel Postulate fell
 first: Gauss, Schweikart, Lobachevski,1 Bolyai (who else?) came to the
 conclusion that there is a unique non-trivial one-parameter deformation of
-the metric </p>
+the metric on \(\R^3\) keeping the space fully homogeneous. </p>
+
+
+	<p> It is believed, that Gauss, who convinced himself of the validity of 
+hyperbolic geometry somewhere between 1808 and 1818, was disconcerted by
+the absence of a Euclidean realization of the hyperbolic plane \(H^2\). By that
+time, he must have had a clear picture of the geometry of surfaces in \(\R^3\) (exposed in his 
+		<q><em>Disquisitones circa superficies curvas</em></q> in \(1827\)), where the
+(intrinsic) distance between two points on a surface is defined as the length of the shortest (better to say <q>innmal</q>) curve in the surface between these
+points. (This idea must have been imprinted by Nature in the brain, as
+most animals routinely choose shortest cuts on rugged terrains.) Gauss discovered the following powerful and efficient criterion for isometry between
+surfaces, distinguishing, for example, a piece of a round sphere \(S^2\subset \R^3\) from an arbitrarily bent sheet of paper (retaining its intrinsic Euclideanness
+under bendings). </p>
+
+<p> Map a surface \(S\subset \R^3\) to the unit sphere \(S^2\) by taking the vectors \(\nu (s) \in S\) parallel to the unit normal vector 
+		vectors \(v(s)\), \(s\in S\). If \(S\) is \(C^2\)-smooth, the Gauss map \(G: S\to S^2\,, s\mapsto \nu(s)\) is \(C^1\) and its Jacobian, i.e. <em> the infinitesimal
+		area distorsion</em>, comes with a non-ambiguous sign [...] and so \(S\) appears with a real function, called Gauss curvature \(\Kappa(s) = \operatorname{det}(G)(s) \). </p>
+
+		<h3>  Theorem Egregium</h3>
+
+		<p> Every isometry between surfaces, say \(f: S \to S_1\), preserves Gauss curvature, \(\Kappa(f(s_1)) = \Kappa(s_1)\) for all \(s_1\in S_1\). </p>
 
      <hr>
 	<footer> X: @elmar_ct; facebook: Лс Эльмар; email:elmar@aims.ac.za </footer>
